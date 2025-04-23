@@ -18,7 +18,7 @@ const PublicationsSection = () => {
   ];
 
   return (
-    <Section id="publications" title="Publications">
+    <Section id="publications" title="Publication">
       <div className="publications-container">
         {publications.map((pub, index) => (
           <div key={index} className="publication-item">

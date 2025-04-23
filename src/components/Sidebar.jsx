@@ -1,3 +1,4 @@
+import { useState } from 'react'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faUniversity, 
@@ -8,9 +9,20 @@ import {
   faGithub, 
   faLinkedin 
 } from '@fortawesome/free-brands-svg-icons';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import PDFViewer from './PDFViewer';
 
 const Sidebar = () => {
+  const [showPdfViewer, setShowPdfViewer] = useState(false);
+
+  const openPdfViewer = (e) => {
+    e.preventDefault();
+    setShowPdfViewer(true);
+  };
+
+  const closePdfViewer = () => {
+    setShowPdfViewer(false);
+  };
+
   return (
     <aside className="sidebar">
       <div className="profile-container">
@@ -53,11 +65,18 @@ const Sidebar = () => {
         </li>*/}
         <li className="cv">
           <FontAwesomeIcon icon={faFileAlt} className="icon" />
-          <a href="/path-to-cv.pdf" className="link cv">
+          <a href="#" onClick={openPdfViewer} className="link cv">
             CV
           </a>
         </li>
       </ul>
+
+      {showPdfViewer && (
+        <PDFViewer 
+          pdfUrl="/JaeyoungChoi_CV.pdf" 
+          onClose={closePdfViewer} 
+        />
+      )}
     </aside>
   )
 }
