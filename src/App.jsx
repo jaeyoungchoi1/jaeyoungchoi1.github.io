@@ -2,9 +2,9 @@ import './App.scss'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Section from './components/Section'
-import AboutMeSection from './components/Sections/AboutMeSection'
+import AboutMeSection from './components/sections/AboutMeSection'
 import NewsSection from './components/sections/NewsSection'
-import PublicationSection from './components/Sections/PublicationSection'
+import PublicationSection from './components/sections/PublicationSection'
 import EducationSection from './components/sections/EducationSection'
 
 function App() {
