@@ -13,6 +13,10 @@ import PDFViewer from './PDFViewer';
 
 const Sidebar = () => {
   const [showPdfViewer, setShowPdfViewer] = useState(false);
+  
+  const pdfPath = import.meta.env.MODE === 'production' 
+    ? '/jaeyoungchoi1.github.io/JaeyoungChoi_CV.pdf' 
+    : '/JaeyoungChoi_CV.pdf';
 
   const openPdfViewer = (e) => {
     e.preventDefault();
@@ -73,7 +77,7 @@ const Sidebar = () => {
 
       {showPdfViewer && (
         <PDFViewer 
-          pdfUrl="/JaeyoungChoi_CV.pdf" 
+          pdfUrl={pdfPath}
           onClose={closePdfViewer} 
         />
       )}
