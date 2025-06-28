@@ -28,7 +28,7 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="profile-container">
         <img src="/profile.jpeg" alt="Profile" className="profile-pic" />
-        <h2 className="name">JaeYoung Choi</h2>
+        <h2 className="name">Jae Young Choi</h2>
         <p className="title">M.S. student at AEL, KAIST</p>
         <p className="location">Daejeon, South Korea</p>
       </div>

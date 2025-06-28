@@ -4,7 +4,7 @@ const Header = () => {
         <div className="header-content">
         <div className="logo">
             <strong>
-                JaeYoung Choi
+                Jae Young Choi
             </strong>
         </div>
         <nav className="nav">

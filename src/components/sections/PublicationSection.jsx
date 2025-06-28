@@ -5,7 +5,7 @@ const PublicationsSection = () => {
   const publications = [
     {
       title: "Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs",
-      authors: "<strong>JaeYoung Choi</strong>, Seon Gyeom Kim, Jaywoong Jeong, Ryan Rossi, Jihyung Kil, and Tak Yeon Lee",
+      authors: "<strong>Jae Young Choi</strong>, Seon Gyeom Kim, Jaywoong Jeong, Ryan Rossi, Jihyung Kil, and Tak Yeon Lee",
       conference: "UbiComp / ISWC",
       year: "2025",
       status: "(Accepted)",
@@ -15,7 +15,7 @@ const PublicationsSection = () => {
     },
     {
       title: "Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity",
-      authors: "Seon Gyeom Kim*, <strong>JaeYoung Choi*</strong>, Phillip Y. Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee",
+      authors: "Seon Gyeom Kim*, <strong>Jae Young Choi*</strong>, Phillip Y. Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee",
       conference: "IEEE VIS",
       year: "2025",
       status: "(Accepted)",
@@ -27,7 +27,7 @@ const PublicationsSection = () => {
     },
     {
       title: "Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts",
-      authors: "Seon Gyeom Kim, <strong>JaeYoung Choi</strong>, Ryan Rossi, Eunyee Koh, and Tak Yeon Lee",
+      authors: "Seon Gyeom Kim, <strong>Jae Young Choi</strong>, Ryan Rossi, Eunyee Koh, and Tak Yeon Lee",
       conference: "IEEE PacificVis",
       year: "2025",
       status: "🏆 Best Paper Award",
