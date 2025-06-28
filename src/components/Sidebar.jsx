@@ -54,7 +54,7 @@ const Sidebar = () => {
         </li>
         <li className="linkedin">
           <FontAwesomeIcon icon={faLinkedin} className="icon" />
-          <a href="https://www.linkedin.com/in/재영-최-576bb6217/" className="link linkedin">
+          <a href="https://www.linkedin.com/in/jaeyoungchoikaist" className="link linkedin">
             LinkedIn
           </a>
         </li>

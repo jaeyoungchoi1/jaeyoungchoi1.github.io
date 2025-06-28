@@ -12,7 +12,7 @@ const PDFViewer = ({ pdfUrl, onClose }) => {
     <div className="pdf-viewer-overlay" onClick={handleOverlayClick}>
       <div className="pdf-viewer-container">
         <iframe
-          src={`${pdfUrl}#toolbar=0&navpanes=0`}
+          src={pdfUrl} // URL 파라미터 제거
           title="PDF Viewer"
           className="pdf-frame"
         ></iframe>
