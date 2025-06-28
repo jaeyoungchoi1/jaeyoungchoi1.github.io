@@ -16,7 +16,7 @@ const PublicationsSection = () => {
     {
       title: "Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity",
       authors: "Seon Gyeom Kim*, <strong>JaeYoung Choi*</strong>, Phillip Y. Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee",
-      conference: "IEEE Vis",
+      conference: "IEEE VIS",
       year: "2025",
       status: "(Accepted)",
       teaser: "/GCG.png",
@@ -60,7 +60,7 @@ const PublicationsSection = () => {
               </p>
               <div className="publication-links">
                 {pub.links.map((link, i) => (
-                  <a key={i} href={link.url} className="pub-link">{link.label}</a>
+                  <a key={i} href={link.url} className="pub-link" target="_blank" rel="noopener noreferrer">{link.label}</a>
                 ))}
               </div>
             </div>

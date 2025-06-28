@@ -36,7 +36,7 @@ const Sidebar = () => {
       <ul className="contact-links">
         <li className="lab">
           <FontAwesomeIcon icon={faUniversity} className="icon" />
-          <a href="https://reflect9.github.io/ael/" className="link lab">
+          <a href="https://ai-experience-lab.github.io/" className="link lab" target="_blank" rel="noopener noreferrer">
             AI Experience Lab
           </a>
         </li>
@@ -48,13 +48,13 @@ const Sidebar = () => {
         </li>
         <li className="github">
           <FontAwesomeIcon icon={faGithub} className="icon" />
-          <a href="https://github.com/jaeyoungchoi1" className="link github">
+          <a href="https://github.com/jaeyoungchoi1" className="link github" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </li>
         <li className="linkedin">
           <FontAwesomeIcon icon={faLinkedin} className="icon" />
-          <a href="https://www.linkedin.com/in/jaeyoungchoikaist" className="link linkedin">
+          <a href="https://www.linkedin.com/in/jaeyoungchoikaist" className="link linkedin" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
         </li>
