@@ -6,23 +6,24 @@ const PublicationsSection = () => {
     {
       title: "Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs",
       authors: "<strong>Jae Young Choi</strong>, Seon Gyeom Kim, Jaywoong Jeong, Ryan Rossi, Jihyung Kil, and Tak Yeon Lee",
-      conference: "UbiComp / ISWC",
+      conference: "UbiComp Companion",
       year: "2025",
-      status: "(Accepted)",
+      status: "(To Appear)",
       teaser: "/G2P.png",
       links: [
+        { label: "Paper", url: "/Gaze2Prompt_Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf"}
       ]
     },
     {
       title: "Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity",
-      authors: "Seon Gyeom Kim*, <strong>Jae Young Choi*</strong>, Phillip Y. Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee",
+      authors: "Seon Gyeom Kim*, <strong>Jae Young Choi*</strong>, Phillip Y. Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee (* equal contribution)",
       conference: "IEEE VIS",
       year: "2025",
-      status: "(Accepted)",
+      status: "(To Appear)",
       teaser: "/GCG.png",
       links: [
-        //{ label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11021044/" },
-        { label: "Demo", url: "https://groundedchartgeneration.github.io" },
+        //{ label: "Paper", url: "/vis25b-sub1326-cam-i7.pdf"},
+        { label: "Website", url: "https://groundedchartgeneration.github.io" },
       ]
     },
     {
@@ -34,7 +35,7 @@ const PublicationsSection = () => {
       teaser: "/C2E.png",
       links: [
         { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11021044/" },
-        { label: "Demo", url: "https://chart2experience.github.io" },
+        { label: "Website", url: "https://chart2experience.github.io" },
       ]
     },
   ];
