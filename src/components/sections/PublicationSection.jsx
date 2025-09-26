@@ -11,7 +11,7 @@ const PublicationsSection = () => {
       status: "(To Appear)",
       teaser: "/G2P.png",
       links: [
-        { label: "Paper", url: "/Gaze2Prompt_Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf"}
+        { label: "Paper", url: "/_CR__Gaze2Prompt__Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf"}
       ]
     },
     {
@@ -23,7 +23,7 @@ const PublicationsSection = () => {
       teaser: "/GCG.png",
       links: [
         //{ label: "Paper", url: "/vis25b-sub1326-cam-i7.pdf"},
-        { label: "Website", url: "https://groundedchartgeneration.github.io" },
+        { label: "Project Page", url: "https://groundedchartgeneration.github.io" },
       ]
     },
     {
@@ -35,7 +35,7 @@ const PublicationsSection = () => {
       teaser: "/C2E.png",
       links: [
         { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11021044/" },
-        { label: "Website", url: "https://chart2experience.github.io" },
+        { label: "Project Page", url: "https://chart2experience.github.io" },
       ]
     },
   ];

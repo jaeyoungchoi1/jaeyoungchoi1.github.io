@@ -4,8 +4,12 @@ import Section from '../Section';
 const LatestNewsSection = () => {
   const newsItems = [
     {
+      date: "Sep 2025",
+      description: `Our project <a href="https://www.jamesdysonaward.org/2025/project/o2stick" target="_blank" rel="noopener noreferrer"><strong>O2Stick</strong></a> was selected as a <strong>National Runner-up</strong> at the <strong>James Dyson Award 2025</strong>!🏅 Looking forward to the next steps!`
+    },
+    {
       date: "Jun 2025",
-      description: "Another poster paper <strong>👀Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs</strong> has been accepted at <strong>UbiComp 2025</strong>! Excited to share my novel idea in Espoo, Finland! 🇫🇮"
+      description: "Another poster paper <strong>👀Gaze2Prompt</strong> has been accepted at <strong>UbiComp 2025</strong>! Excited to share my novel idea in Espoo, Finland! 🇫🇮"
     },
     {
       date: "Jun 2025",

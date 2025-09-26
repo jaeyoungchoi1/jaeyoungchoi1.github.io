@@ -23,7 +23,7 @@ function App() {
       </div>
       <div className="footer">
         <div className="copyright">© 2025 All Rights Reserved</div>
-        <div className="last-update">Last updated: Jun 2025</div>
+        <div className="last-update">Last updated: Sep 2025</div>
       </div>
     </div>
     </>
