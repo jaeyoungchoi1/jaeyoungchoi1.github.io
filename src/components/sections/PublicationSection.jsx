@@ -11,7 +11,9 @@ const PublicationsSection = () => {
       status: "(To Appear)",
       teaser: "/G2P.png",
       links: [
-        { label: "Paper", url: "/_CR__Gaze2Prompt__Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf"}
+        { label: "Paper", url: "/_CR__Gaze2Prompt__Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf"},
+        { label: "Poster", url: "/Gaze2Prompt_Poster.pdf"},
+
       ]
     },
     {
@@ -22,7 +24,7 @@ const PublicationsSection = () => {
       status: "(To Appear)",
       teaser: "/GCG.png",
       links: [
-        //{ label: "Paper", url: "/vis25b-sub1326-cam-i7.pdf"},
+        { label: "Paper", url: "/vis25b-sub1326-cam.pdf"},
         { label: "Project Page", url: "https://groundedchartgeneration.github.io" },
       ]
     },
