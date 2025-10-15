@@ -4,6 +4,10 @@ import Section from '../Section';
 const LatestNewsSection = () => {
   const newsItems = [
     {
+      date: "Oct 2025",
+      description: "🥳 Gaze2Prompt received the 🏆 <strong>Best Poster Award</strong> at UbiComp 2025, selected among 68 posters!"
+    },
+    {
       date: "Sep 2025",
       description: `Our project <a href="https://www.jamesdysonaward.org/2025/project/o2stick" target="_blank" rel="noopener noreferrer"><strong>O2Stick</strong></a> was selected as a <strong>National Runner-up</strong> at the <strong>James Dyson Award 2025</strong>!🏅 Looking forward to the next steps!`
     },

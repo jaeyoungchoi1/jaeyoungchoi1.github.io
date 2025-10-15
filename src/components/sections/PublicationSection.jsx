@@ -8,7 +8,7 @@ const PublicationsSection = () => {
       authors: "<strong>Jae Young Choi</strong>, Seon Gyeom Kim, Jaywoong Jeong, Ryan Rossi, Jihyung Kil, and Tak Yeon Lee",
       conference: "UbiComp Companion",
       year: "2025",
-      status: "(To Appear)",
+      status: "🏆 Best Poster Award",
       teaser: "/G2P.png",
       links: [
         { label: "Paper", url: "/_CR__Gaze2Prompt__Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf"},
