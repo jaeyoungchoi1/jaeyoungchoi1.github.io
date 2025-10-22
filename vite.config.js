@@ -7,6 +7,7 @@ export default defineConfig({
   base: '/',
   define: {
     __BUILD_DATE__: JSON.stringify(new Date().toLocaleDateString('en-US', { 
+      date: 'numeric',
       month: 'short', 
       year: 'numeric' 
     }))
