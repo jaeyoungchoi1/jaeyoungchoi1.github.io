@@ -21,7 +21,7 @@ const LatestNewsSection = () => {
     },
     {
       date: "Apr 2025",
-      description: "🎉 Our paper <strong>Chart-to-Experience</strong> received the <strong>🏆 Best Paper Award</strong> at <strong>PacificVis 2025</strong>! 🙌"
+      description: "🎉 Our paper <strong>Chart-to-Experience</strong> received the <strong>🏆 Best Paper Award</strong> at <strong>PacificVis 2025</strong>!"
     },
     {
       date: "Apr 2025",
