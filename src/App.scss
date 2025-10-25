@@ -98,13 +98,13 @@ body {
 
       .title {
         font-weight: 500;
-        margin: 0.5rem 0;
-        color: #555;
+        margin: 0.2rem 0;
+        color: #777;
       }
 
       .location {
         font-weight: 400;
-        margin: 0.5rem 0;
+        margin: 0.2rem 0;
         color: #777;
         font-size: 0.9rem;
       }
@@ -190,7 +190,23 @@ body {
         .about-content {
           .about-text {
             p {
+              font-weight: 500;
               line-height: 1.8;
+              strong {
+                font-weight: 900;
+              }
+            }
+          }
+          .education-item {
+            .degree{
+              font-size: 1rem;
+              margin-bottom: 0.5rem ;
+            }
+            .duration{
+              margin: 0;
+              font-family: Helvetica, sans-serif;
+              padding: 0;
+              color: #777;
             }
           }
         }
@@ -208,7 +224,7 @@ body {
         
             .news-date {
               flex: 0 0 100px;
-              font-weight: 600;
+              font-weight: 900;
               color: #555;
             }
         
@@ -221,6 +237,7 @@ body {
         
               p {
                 margin: 0;
+                font-size: 0.95rem;
                 color: #666;
               }
             }
@@ -228,7 +245,7 @@ body {
         }
 
         .publications-container {
-          padding: 1rem 0;
+          padding: 0.5rem 0 1rem 0;
         
           .publication-item {
             display: flex;
@@ -266,17 +283,22 @@ body {
                 margin: 0;
                 
                 .publication-status {
-                  font-size: 1rem;
+                  font-family: Helvetica, sans-serif;
+                  font-size: 0.9rem;
                   font-weight: 400;
                   color: #777;
                 }
               }
               .publication-authors {
+                font-family: Helvetica, sans-serif;
                 font-size: 0.9rem;
-                font-style: italic;
+                strong {
+                  text-decoration: underline;
+                }
               }
               .publication-venue {
-                font-style: italic;
+                font-family: Helvetica, sans-serif;
+                color: #777;
               }
         
               .publication-links {
@@ -286,7 +308,8 @@ body {
                   display: inline-block;
                   margin-right: 1rem;
                   color: #0077cc;
-                  text-decoration: none;
+                  font-size: 0.9rem;
+                  font-weight: 800;
                   
                   &:hover {
                     text-decoration: underline;

@@ -6,12 +6,12 @@ const EducationSection = () => {
         <Section id="edu" title="Education">
         <div className="about-content">
             <div className="education-item">
-                <p><strong>M.S. student, KAIST</strong>, Industrial Design</p>
-                <p>Aug 2024 - Current</p>
+                <p className='degree'><strong>M.S. student, KAIST</strong>, Industrial Design</p>
+                <p className='duration'>Aug 2024 - Current</p>
             </div>
             <div className="education-item">
-            <p><strong>B.S., POSTECH</strong>, Chemical Engineering (major) & Computer Science and Engineering (minor)</p>
-            <p>Feb 2018 - Aug 2024</p>
+            <p className='degree'><strong>B.S., POSTECH</strong>, Chemical Engineering (major) & Computer Science and Engineering (minor)</p>
+            <p className='duration'>Feb 2018 - Aug 2024</p>
             </div>
         </div>
         </Section>

@@ -5,11 +5,11 @@ const LatestNewsSection = () => {
   const newsItems = [
     {
       date: "Oct 2025",
-      description: "🥳 Gaze2Prompt received the 🏆 <strong>Best Poster Award</strong> at UbiComp 2025, selected among 68 posters!"
+      description: "🥳 <strong>Gaze2Prompt</strong> received the 🏆 <strong>Best Poster Award</strong> at UbiComp 2025, selected among 68 posters!"
     },
     {
       date: "Sep 2025",
-      description: `Our project <a href="https://www.jamesdysonaward.org/2025/project/o2stick" target="_blank" rel="noopener noreferrer"><strong>O2Stick</strong></a> was selected as a <strong>National Runner-up</strong> at the <strong>James Dyson Award 2025</strong>!🏅 Looking forward to the next steps!`
+      description: `Our project <a href="https://www.jamesdysonaward.org/2025/project/o2stick" target="_blank" rel="noopener noreferrer"><strong>O2Stick</strong></a> was selected as a <strong>National Runner-up🏅</strong> at the <strong>James Dyson Award</strong>! Looking forward to the next steps!`
     },
     {
       date: "Jun 2025",
@@ -21,7 +21,7 @@ const LatestNewsSection = () => {
     },
     {
       date: "Apr 2025",
-      description: "🎉 Our paper <strong>Chart-to-Experience</strong> got the <strong>🏆 Best Paper Award</strong> at <strong>PacificVis 2025</strong>! 🙌"
+      description: "🎉 Our paper <strong>Chart-to-Experience</strong> received the <strong>🏆 Best Paper Award</strong> at <strong>PacificVis 2025</strong>! 🙌"
     },
     {
       date: "Apr 2025",
