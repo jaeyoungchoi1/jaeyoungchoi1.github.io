@@ -54,7 +54,7 @@ const Sidebar = () => {
         </li>*/}
         <li className="cv">
           <FontAwesomeIcon icon={faFileAlt} className="icon" />
-          <a href="/JaeyoungChoi_CV_new_2.pdf" className="link cv" target="_blank" rel="noopener noreferrer">
+          <a href="/JaeyoungChoi_CV_new_3.pdf" className="link cv" target="_blank" rel="noopener noreferrer">
             CV
           </a>
         </li>
