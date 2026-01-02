@@ -23,9 +23,9 @@ const Sidebar = () => {
       
       <ul className="contact-links">
         <li className="lab">
-          <FontAwesomeIcon icon={faUniversity} className="icon" />
-          <a href="https://ai-experience-lab.github.io/" className="link lab" target="_blank" rel="noopener noreferrer">
-            AI Experience Lab
+          <FontAwesomeIcon icon={faGraduationCap} className="icon" />
+          <a href="https://scholar.google.com/citations?user=XD02UbAAAAAJ" className="link lab" target="_blank" rel="noopener noreferrer">
+            Google Scholar
           </a>
         </li>
         <li className="email">
