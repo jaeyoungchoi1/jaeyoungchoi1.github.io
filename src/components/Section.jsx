@@ -1,7 +1,7 @@
 const Section = ({ id, title, children }) => {
   return (
     <section id={id} className="section">
-      <h2>{title}</h2>
+      <h3 className="section-title">{title}</h3>
       {children}
     </section>
   )

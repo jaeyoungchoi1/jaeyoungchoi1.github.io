@@ -12,7 +12,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   background-color: rgba(255,255,255,0.9);
   border-bottom: 1px solid #ccc;
   position: sticky;
@@ -23,7 +23,8 @@ body {
   
   .header-content {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    gap: 2.5rem;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -70,14 +71,14 @@ body {
     box-sizing: border-box;
     
     .sidebar {
-      width: 300px;
+      width: 250px;
       background-color: white;
       padding: 1.5rem;
       box-sizing: border-box;
       text-align: center;
 
       .profile-container {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
       }
 
       .profile-pic {
@@ -110,20 +111,28 @@ body {
       }
 
       .contact-links {
-        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0;
-        margin: 1.5rem 0 0 0;
+        margin: 0 0 0 0;
+        flex-wrap: wrap;
 
-        li {
+        .contact {
           display: flex;
           align-items: center;
-          padding: 0.3rem 1rem;
-          text-align: left;
         }
+
+        // li {
+        //   display: flex;
+        //   align-items: center;
+        //   padding: 0.3rem 1rem;
+        //   text-align: left;
+        // }
 
         .icon {
           margin-right: 0.5rem;
-          width: 1.2rem;
+          width: 1.5rem;
         }
 
         .link {
@@ -134,26 +143,24 @@ body {
           font-size: 0.9rem;
           position: relative;
           
-          &:after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 1px;
-            background: #666;
-            left: 0;
-            bottom: -2px;
-            transition: all 0.3s ease;
-          }
+          // &:after {
+          //   content: '';
+          //   position: absolute;
+          //   width: 0;
+          //   height: 1px;
+          //   background: #666;
+          //   left: 0;
+          //   bottom: -2px;
+          //   transition: all 0.3s ease;
+          // }
           
-          &:hover:after {
-            width: 100%;
-          }
+          // &:hover:after {
+          //   width: 100%;
+          // }
         }
-        .lab .icon {
-          color: #606060;
-        }
+
         .email .icon {
-          color: #606060;
+          color: #8f8f8f;
         }
         .github .icon {
           color: #333;
@@ -162,7 +169,7 @@ body {
           color: #0077b5;
         }
         .scholar .icon {
-          color: #4285f4;
+          color: #6193eb;
         }
         .cv .icon {
           color: #606060;
@@ -183,10 +190,13 @@ body {
 
     main {
       flex: 1;
-      padding: 2rem;
+      padding: 1.5rem;
       background: white;
       .section {
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
+        .section-title {
+          margin: 1rem 0 1rem 0;
+        }
         .about-content {
           .about-text {
             p {
@@ -213,7 +223,7 @@ body {
 
         .news-container{
           background-color: #f5f5f5;
-          padding: 1rem 1rem;
+          padding: 1rem 1rem 0rem 1rem;
           border-radius: 6px;
 
           .news-item {
@@ -242,10 +252,18 @@ body {
               }
             }
           }
+
+          .news-toggle-button {
+            width: 100%;            
+            border-color: transparent;
+            background-color: transparent;
+            cursor: pointer;
+            margin-bottom: 0;
+          }
         }
 
         .publications-container {
-          padding: 0.5rem 0 1rem 0;
+          padding: 0;
         
           .publication-item {
             display: flex;
@@ -253,11 +271,58 @@ body {
             margin: 1rem 0;
         
             .publication-teaser {
-              flex: 0 0 30%;
+              position: relative;
+              width: 180px;
+              height: 135px;
               margin-right: 1.5rem;
               overflow: hidden;
               border-radius: 6px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
               
+              .publication-labels {
+                position: absolute;
+                top: 8px;
+                left: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                z-index: 3;
+
+                .label {
+                  width: 110px;
+                  height: 20px;
+                  box-sizing: border-box;
+                  padding: 0 6px;
+                  border-radius: 1px;
+                  font-size: 0.7rem;
+                  line-height: 20px;
+                  font-weight: 700;
+                  letter-spacing: 0.03em;
+                  text-transform: uppercase;
+                  color: #fff;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+
+                .type-full-paper {
+                  background-color: #233457;
+                }
+
+                .type-short-paper {
+                  background-color: #2b573b;
+                }
+
+                .type-poster {
+                  background-color: #684985;
+                }
+
+                .award-label {
+                  background: #ffd736;
+                  color: #3b1f05;
+                }
+              }
+
               img {
                 width: 100%;
                 height: auto;
@@ -269,6 +334,40 @@ body {
                 
                 &:hover {
                   transform: scale(1.02);
+                }
+              }
+
+              .publication-overlay {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                transition: opacity 0.2s ease;
+                pointer-events: none;
+                z-index: 2;
+
+                .overlay-backdrop {
+                  position: absolute;
+                  inset: 0;
+                  background: rgba(0, 0, 0, 0.35);
+                }
+
+                .conf-image {
+                  opacity: 0.9;
+                  position: relative;
+                  max-width: 145px;
+                  max-height: 145px;
+                  object-fit: contain;
+                  background-color: white;
+                  border-radius: 4px;
+                }
+              }
+
+              &:hover {
+                .publication-overlay {
+                  opacity: 1;
                 }
               }
 
@@ -289,6 +388,9 @@ body {
                   color: #777;
                 }
               }
+              p {
+                margin: 0.5rem 0 0 0;
+              }
               .publication-authors {
                 font-family: Helvetica, sans-serif;
                 font-size: 0.9rem;
@@ -298,16 +400,18 @@ body {
               }
               .publication-venue {
                 font-family: Helvetica, sans-serif;
+                font-style: italic;
+                font-size: 0.9rem;
                 color: #777;
               }
         
               .publication-links {
-                margin-top: 1rem;
-                
+                margin-top: 0.5rem;
+
                 a {
                   display: inline-block;
-                  margin-right: 1rem;
-                  color: #0077cc;
+                  margin-right: 0.7rem;
+                  color: #4e96ca;
                   font-size: 0.9rem;
                   font-weight: 600;
                   
@@ -319,8 +423,16 @@ body {
             }
           }
         }
-
-
+      }
+      
+      .map-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
+        .map-container {
+          width: 400px;
+        }
       }
     }
   }
@@ -359,6 +471,10 @@ body {
 
       main {
         padding: 1rem;
+        .publication-teaser {
+              width: 120px;
+              height: 90px;
+        }
       }
     }
   }
@@ -370,7 +486,6 @@ body {
       padding: 1rem;
     }
     .nav {
-      display: none;
       a {
         display: block;
         margin: 0.5rem 0;

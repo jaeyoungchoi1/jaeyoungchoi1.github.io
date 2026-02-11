@@ -6,6 +6,7 @@ import AboutMeSection from './components/sections/AboutMeSection'
 import NewsSection from './components/sections/NewsSection'
 import PublicationSection from './components/sections/PublicationSection'
 import EducationSection from './components/sections/EducationSection'
+import MapView from './components/MapView'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <NewsSection />
           <PublicationSection />
           <EducationSection />
+          <MapView />
         </main>
       </div>
       <div className="footer">

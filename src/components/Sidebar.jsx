@@ -17,48 +17,44 @@ const Sidebar = () => {
       <div className="profile-container">
         <img src="/profile.jpeg" alt="Profile" className="profile-pic" />
         <h2 className="name">Jae Young Choi</h2>
-        <p className="title">Master's Student</p>
+        <p className="title">Master's Student @ KAIST</p>
         <p className="location">Daejeon, South Korea</p>
       </div>
       
-      <ul className="contact-links">
-        <li className="lab">
-          <FontAwesomeIcon icon={faGraduationCap} className="icon" />
-          <a href="https://scholar.google.com/citations?user=XD02UbAAAAAJ" className="link lab" target="_blank" rel="noopener noreferrer">
-            Google Scholar
+      <div className="contact-links">
+        <div className="contact scholar">
+          <a href="https://scholar.google.com/citations?user=XD02UbAAAAAJ" className="link scholar" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGraduationCap} className="icon" />
           </a>
-        </li>
-        <li className="email">
-          <FontAwesomeIcon icon={faEnvelope} className="icon" />
+        </div>
+        <div className="contact email">
           <a href="mailto:jaeyoungchoi@kaist.ac.kr" className="link email">
-            Email
+            <FontAwesomeIcon icon={faEnvelope} className="icon" />
           </a>
-        </li>
-        <li className="github">
-          <FontAwesomeIcon icon={faGithub} className="icon" />
+        </div>
+        <div className="contact github">
           <a href="https://github.com/jaeyoungchoi1" className="link github" target="_blank" rel="noopener noreferrer">
-            GitHub
+            <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
-        </li>
-        <li className="linkedin">
-          <FontAwesomeIcon icon={faLinkedin} className="icon" />
+        </div>
+        <div className="contact linkedin">
           <a href="https://www.linkedin.com/in/jaeyoungchoikaist" className="link linkedin" target="_blank" rel="noopener noreferrer">
-            LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
-        </li>
+        </div>
         {/*<li className="scholar">
           <FontAwesomeIcon icon={faGraduationCap} className="icon" />
           <a href="https://scholar.google.com/citations?user=xxx" className="link scholar">
             Google Scholar
           </a>
         </li>*/}
-        <li className="cv">
+        {/* <li className="cv">
           <FontAwesomeIcon icon={faFileAlt} className="icon" />
           <a href="/CV.pdf" className="link cv" target="_blank" rel="noopener noreferrer">
             CV
           </a>
-        </li>
-      </ul>
+        </li> */}
+      </div>
     </aside>
   )
 }

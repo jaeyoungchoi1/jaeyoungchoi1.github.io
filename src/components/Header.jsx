@@ -8,10 +8,11 @@ const Header = () => {
             </strong>
         </div>
         <nav className="nav">
-          <a href="#about">About Me</a>
+          <a href="CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+          {/* <a href="#about">About Me</a>
           <a href="#news">Latest News</a>
           <a href="#publications">Publication</a>
-          <a href="#edu">Education</a>
+          <a href="#edu">Education</a> */}
           {/*<a href="#experience">Experience</a>*/}
         </nav>
         </div>

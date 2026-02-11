@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Section from '../Section';
 
 const LatestNewsSection = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  
   const newsItems = [
+    {
+      date: "Feb 2026",
+      description: "One short paper accepted to <strong>PacificVis 2026</strong>! Planning to present my work about visual prompting for MLLM in Sydney 🦘🇦🇺"
+    },
     {
       date: "Oct 2025",
       description: "🥳 <strong>Gaze2Prompt</strong> received the 🏆 <strong>Best Poster Award</strong> at UbiComp 2025, selected among 68 posters!"
@@ -37,10 +43,12 @@ const LatestNewsSection = () => {
     },
   ];
 
+  const displayedNews = isExpanded ? newsItems : newsItems.slice(0, 4);
+  
   return (
     <Section id="news" title="Latest News">
       <div className="news-container">
-        {newsItems.slice(0, 5).map((item, index) => (
+        {displayedNews.map((item, index) => (
           <div key={index} className="news-item">
             <div className="news-date">{item.date}</div>
             <div className="news-content">
@@ -48,6 +56,22 @@ const LatestNewsSection = () => {
             </div>
           </div>
         ))}
+        {newsItems.length > 4 && (
+          <button 
+            className="news-toggle-button" 
+            onClick={() => setIsExpanded(!isExpanded)}
+          >
+            {isExpanded ? (
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
+                <path d="M15 13L10 8L5 13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            ) : (
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
+                <path d="M5 7L10 12L15 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            )}
+          </button>
+        )}
       </div>
     </Section>
   );
