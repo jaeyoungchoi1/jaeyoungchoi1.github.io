@@ -20,12 +20,12 @@ function App() {
           <NewsSection />
           <PublicationSection />
           <EducationSection />
-          <MapView />
         </main>
       </div>
       <div className="footer">
-        <div className="copyright">© 2025 All Rights Reserved</div>
+        <div className="copyright">© {__BUILD_YEAR__} All Rights Reserved</div>
         <div className="last-update">Last updated: {__BUILD_DATE__}</div>
+        <MapView />
       </div>
     </div>
     </>

@@ -10,6 +10,7 @@ export default defineConfig({
       date: 'numeric',
       month: 'short', 
       year: 'numeric' 
-    }))
+    })),
+    __BUILD_YEAR__: JSON.stringify(new Date().getFullYear())
   }
 })

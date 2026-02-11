@@ -425,15 +425,7 @@ body {
         }
       }
       
-      .map-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10rem;
-        .map-container {
-          width: 400px;
-        }
-      }
+      
     }
   }
 
@@ -443,7 +435,15 @@ body {
     text-align: center;
     border-top: 1px solid #eee;
     margin-top: auto;
-    
+    .map-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        .map-container {
+          width: 400px;
+        }
+      }
     .copyright {
       font-size: 0.75rem;
       color: #555;
