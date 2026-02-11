@@ -142,7 +142,9 @@ body {
           font-weight: 400;
           font-size: 0.9rem;
           position: relative;
-          
+          svg{
+            margin:0 2px 0 2px;
+          }
           // &:after {
           //   content: '';
           //   position: absolute;
@@ -484,12 +486,6 @@ body {
   .header {
     .header-content {
       padding: 1rem;
-    }
-    .nav {
-      a {
-        display: block;
-        margin: 0.5rem 0;
-      }
     }
   }
 }
