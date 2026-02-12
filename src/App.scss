@@ -474,9 +474,13 @@ body {
       main {
         padding: 1rem;
         .publication-teaser {
-              width: 120px !important;
-              height: 90px !important;
-              border-radius: 17px !important;
+              width: 135px !important;
+              height: 101px !important;
+              border-radius: 18px !important;
+              margin-right: 1rem !important;
+        }
+        .publication-title {
+          font-size: 1rem !important;
         }
       }
     }
