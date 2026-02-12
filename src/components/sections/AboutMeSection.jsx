@@ -3,7 +3,7 @@ import Section from '../Section';
 
 const AboutMeSection = () => {
   return (
-    <Section id="about" title="About Me">
+    <Section id="about">
       <div className="about-content">
         <div className="about-text">
           <p>

@@ -46,7 +46,7 @@ const LatestNewsSection = () => {
   const displayedNews = isExpanded ? newsItems : newsItems.slice(0, 4);
   
   return (
-    <Section id="news" title="Latest News">
+    <Section id="news">
       <div className="news-container">
         {displayedNews.map((item, index) => (
           <div key={index} className="news-item">
@@ -63,11 +63,11 @@ const LatestNewsSection = () => {
           >
             {isExpanded ? (
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
-                <path d="M15 13L10 8L5 13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M15 13L10 8L5 13" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             ) : (
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
-                <path d="M5 7L10 12L15 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M5 7L10 12L15 7" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             )}
           </button>

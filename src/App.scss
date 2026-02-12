@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
+a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 body {
   margin: 0;
   font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -65,6 +71,7 @@ body {
   margin: 0 auto;
 
   .content {
+    margin-top: 2rem;
     display: flex;
     min-height: 100vh;
     width: 100%;
@@ -78,22 +85,22 @@ body {
       text-align: center;
 
       .profile-container {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
       }
 
       .profile-pic {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         object-fit: cover;
         margin: 0 auto 1rem;
-        border: 3px solid #f5f5f5;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        border: 2px solid #f5f5f5;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
       }
 
       .name {
         font-weight: 700;
-        margin: 0.5rem 0;
+        margin: 0.2rem 0;
         font-size: 1.4rem;
       }
 
@@ -101,10 +108,11 @@ body {
         font-weight: 500;
         margin: 0.2rem 0;
         color: #777;
+        font-size: 0.9rem;
       }
 
       .location {
-        font-weight: 400;
+        font-weight: 500;
         margin: 0.2rem 0;
         color: #777;
         font-size: 0.9rem;
@@ -161,20 +169,8 @@ body {
           // }
         }
 
-        .email .icon {
-          color: #8f8f8f;
-        }
-        .github .icon {
-          color: #333;
-        }
-        .linkedin .icon {
-          color: #0077b5;
-        }
-        .scholar .icon {
-          color: #6193eb;
-        }
-        .cv .icon {
-          color: #606060;
+        .icon{
+          color: #888;
         }
 
         @media (max-width: 768px) {
@@ -195,7 +191,7 @@ body {
       padding: 1.5rem;
       background: white;
       .section {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         .section-title {
           margin: 1rem 0 1rem 0;
         }
@@ -203,22 +199,27 @@ body {
           .about-text {
             p {
               font-weight: 500;
-              line-height: 1.8;
+              line-height: 1.7;
+              font-size: 0.95rem;
               strong {
-                font-weight: 900;
+                font-weight: 700;
               }
             }
           }
           .education-item {
-            .degree{
-              font-size: 1rem;
-              margin-bottom: 0.5rem ;
-            }
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 0.5rem;
             .duration{
-              margin: 0;
-              font-family: Helvetica, sans-serif;
-              padding: 0;
-              color: #777;
+              flex: 0 0 150px;
+              font-weight: 500;
+              font-size: 0.9rem;
+              color: #666;
+              margin-right: 1rem;
+            }
+            .degree{
+              flex: 1;
+              font-size: 0.9rem;
             }
           }
         }
@@ -226,18 +227,17 @@ body {
         .news-container{
           background-color: #f5f5f5;
           padding: 1rem 1rem 0rem 1rem;
-          border-radius: 6px;
+          border-radius: 2px;
 
           .news-item {
             display: flex;
-            padding: 1rem;
-            border-radius: 8px;
-            transition: all 0.3s ease;
+            padding: 0.5rem;
         
             .news-date {
-              flex: 0 0 100px;
-              font-weight: 900;
-              color: #555;
+              flex: 0 0 80px;
+              font-weight: 500;
+              font-size: 0.9rem;
+              color: #666;
             }
         
             .news-content {
@@ -249,8 +249,13 @@ body {
         
               p {
                 margin: 0;
-                font-size: 0.95rem;
+                font-weight: 500;
+                font-size: 0.9rem;
                 color: #666;
+              }
+              strong {
+                font-weight: 700; 
+                color: #000;
               }
             }
           }
@@ -260,7 +265,8 @@ body {
             border-color: transparent;
             background-color: transparent;
             cursor: pointer;
-            margin-bottom: 0;
+            margin: 0;
+            padding: 0;
           }
         }
 
@@ -270,7 +276,7 @@ body {
           .publication-item {
             display: flex;
             transition: all 0.3s ease;
-            margin: 1rem 0;
+            margin: 1.5rem 0;
         
             .publication-teaser {
               position: relative;
@@ -278,8 +284,8 @@ body {
               height: 135px;
               margin-right: 1.5rem;
               overflow: hidden;
-              border-radius: 6px;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+              border-radius: 25px;
+              box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
               
               .publication-labels {
                 position: absolute;
@@ -330,8 +336,6 @@ body {
                 height: auto;
                 aspect-ratio: 4/3;
                 object-fit: cover;
-                border-radius: 6px;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
                 transition: transform 0.1s ease;
                 
                 &:hover {
@@ -353,23 +357,19 @@ body {
                 .overlay-backdrop {
                   position: absolute;
                   inset: 0;
-                  background: rgba(0, 0, 0, 0.35);
+                  background: white;
                 }
 
                 .conf-image {
-                  opacity: 0.9;
                   position: relative;
-                  max-width: 145px;
-                  max-height: 145px;
                   object-fit: contain;
-                  background-color: white;
-                  border-radius: 4px;
+                  width: 80%;
                 }
               }
 
               &:hover {
                 .publication-overlay {
-                  opacity: 1;
+                  opacity: 0.9;
                 }
               }
 
@@ -379,7 +379,7 @@ body {
               flex: 1;
               
               .publication-title {
-                font-size: 1rem;
+                font-size: 1.1rem;
                 font-weight: 700;
                 margin: 0;
                 
@@ -391,35 +391,35 @@ body {
                 }
               }
               p {
-                margin: 0.5rem 0 0 0;
+                margin: 2px 0 0 0;
               }
               .publication-authors {
-                font-family: Helvetica, sans-serif;
-                font-size: 0.9rem;
+                font-size: 0.8rem;
+                font-weight: 400;
+                  color: #333;
                 strong {
-                  text-decoration: underline;
+                  color: #000000;
                 }
               }
               .publication-venue {
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-                font-size: 0.9rem;
-                color: #777;
+                font-size: 0.8rem;
+                font-weight: 400;
+                  color: #000000;
               }
         
               .publication-links {
-                margin-top: 0.5rem;
+                margin-top: 2px 0 0 0;
 
                 a {
                   display: inline-block;
-                  margin-right: 0.7rem;
-                  color: #4e96ca;
-                  font-size: 0.9rem;
-                  font-weight: 600;
-                  
-                  &:hover {
+                  margin-right: 0.4rem;
+                  color: #000000;
+                  font-size: 0.8rem;
+                  font-weight: 400;
                     text-decoration: underline;
-                  }
+                  // &:hover {
+                  //   text-decoration: underline;
+                  // }
                 }
               }
             }
@@ -474,8 +474,9 @@ body {
       main {
         padding: 1rem;
         .publication-teaser {
-              width: 120px;
-              height: 90px;
+              width: 120px !important;
+              height: 90px !important;
+              border-radius: 17px !important;
         }
       }
     }

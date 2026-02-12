@@ -11,7 +11,7 @@ import MapView from './components/MapView'
 function App() {
   return (
     <>
-    <Header />
+    {/*<Header />*/}
     <div className="container">
       <div className="content">
         <Sidebar />

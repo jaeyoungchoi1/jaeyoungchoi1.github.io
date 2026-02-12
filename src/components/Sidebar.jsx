@@ -42,6 +42,11 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
         </div>
+        <div className="contact cv">
+          <a href="/CV.pdf" className="link cv" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFileAlt} className="icon" />
+          </a>
+        </div>
         {/*<li className="scholar">
           <FontAwesomeIcon icon={faGraduationCap} className="icon" />
           <a href="https://scholar.google.com/citations?user=xxx" className="link scholar">
