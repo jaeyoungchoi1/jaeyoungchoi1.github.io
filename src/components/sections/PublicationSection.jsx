@@ -9,7 +9,7 @@ const PublicationsSection = () => {
       conference: "IEEE PacificVis",
       year: "2026",
       status: "(to appear)",
-      teaser: "/pacificvis26.png",
+      teaser: "/pacificvis26-thumb.png",
       confImage: "/pacificvis2026.png",
       links: [
 
@@ -21,7 +21,7 @@ const PublicationsSection = () => {
       conference: "ACM CHI",
       year: "2026",
       status: "(to appear)",
-      teaser: "/clinic.png",
+      teaser: "/clinic-thumb.png",
       confImage: "/chi2026.png",
       links: [
       ]
@@ -32,7 +32,7 @@ const PublicationsSection = () => {
       conference: "ACM UbiComp Companion",
       year: "2025",
       award: "🏆 Best Poster",
-      teaser: "/G2P.png",
+      teaser: "/G2P-thumb.png",
       confImage: "/ubicomp2025.jpg",
       links: [
         { label: "DOI", url: "https://doi.org/10.1145/3714394.3754401" },
@@ -46,7 +46,7 @@ const PublicationsSection = () => {
       authors: "Seon Gyeom Kim*, <strong>Jae Young Choi*</strong>, Phillip Y. Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee",
       conference: "IEEE VIS",
       year: "2025",
-      teaser: "/GCG.png",
+      teaser: "/GCG-thumb.png",
       confImage: "/vis2025.png",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/VIS60296.2025.00026" },
@@ -60,7 +60,7 @@ const PublicationsSection = () => {
       conference: "IEEE PacificVis",
       year: "2025",
       award: "🏆 Best Paper",
-      teaser: "/C2E.png",
+      teaser: "/C2E-thumb.png",
       confImage: "/pacificvis2025.png",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/PacificVis64226.2025.00040" },
