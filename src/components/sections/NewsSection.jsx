@@ -63,11 +63,11 @@ const LatestNewsSection = () => {
           >
             {isExpanded ? (
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
-                <path d="M15 13L10 8L5 13" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M15 13L10 8L5 13" stroke="#666666" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             ) : (
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
-                <path d="M5 7L10 12L15 7" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M5 7L10 12L15 7" stroke="#666666" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             )}
           </button>

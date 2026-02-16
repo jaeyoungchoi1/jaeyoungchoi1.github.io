@@ -200,8 +200,8 @@ body {
           .about-text {
             p {
               font-weight: 500;
-              line-height: 1.7;
-              font-size: 0.95rem;
+              line-height: 1.6;
+              font-size: 0.9rem;
               strong {
                 font-weight: 700;
               }
@@ -232,7 +232,7 @@ body {
 
           .news-item {
             display: flex;
-            padding: 0.5rem;
+            padding: 0.4rem;
         
             .news-date {
               flex: 0 0 80px;
@@ -256,7 +256,7 @@ body {
               }
               strong {
                 font-weight: 700; 
-                color: #000;
+                color: #555;
               }
             }
           }
