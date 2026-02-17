@@ -25,7 +25,7 @@ function App() {
       <div className="footer">
         <div className="copyright">© {__BUILD_YEAR__} All Rights Reserved</div>
         <div className="last-update">Last updated: {__BUILD_DATE__}</div>
-        <MapView />
+        {/* <MapView /> */}
       </div>
     </div>
     </>
