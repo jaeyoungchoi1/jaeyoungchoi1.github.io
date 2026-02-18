@@ -32,11 +32,11 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
           </a>
         </div>
-        <div className="contact github">
+        {/* <div className="contact github">
           <a href="https://github.com/jaeyoungchoi1" className="link github" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
-        </div>
+        </div> */}
         <div className="contact linkedin">
           <a href="https://www.linkedin.com/in/jaeyoungchoikaist" className="link linkedin" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
