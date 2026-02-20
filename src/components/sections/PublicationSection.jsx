@@ -17,12 +17,23 @@ const PublicationsSection = () => {
       ]
     },
     {
+      title: "\"Oops! ChatGPT is Temporarily Unavailable!'': A Diary Study on Knowledge Workers’ Experiences of LLM Withdrawal",
+      authors: "Eunseo Oh*, Suyoun Lee*, <strong>Jae Young Choi*</strong>, Soobin Park, Youn-kyung Lim",
+      conference: "ACM CHI",
+      year: "2026 Poster",
+      status: "(to appear)",
+      teaser: "/nollm.png",
+      confImage: "/chi2026.png",
+      links: [
+      ]
+    },
+    {
       title: "Toward Flexible Psychiatric History-Taking and Visualization: Exploring Clinician Perspectives with Large Language Models",
       authors: "Yugyeong Jung, Thu Hoang Anh Vo, Hyun Seung Moon*, <strong>Jae Young Choi*</strong>, Hyangkyeong Oh, Ujin Lee, Eunjoo Kim, Tak Yeon Lee, and Uichin Lee",
       conference: "ACM CHI",
       year: "2026",
       status: "(to appear)",
-      teaser: "/clinic-thumb.png",
+      teaser: "/clinic.png",
       confImage: "/chi2026.png",
       links: [
       ]
@@ -39,7 +50,6 @@ const PublicationsSection = () => {
         { label: "DOI", url: "https://doi.org/10.1145/3714394.3754401" },
         { label: "PDF", url: "/Gaze2Prompt__Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf"},
         { label: "Poster", url: "/Gaze2Prompt_Poster.pdf"},
-
       ]
     },
     {
