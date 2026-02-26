@@ -12,7 +12,7 @@ const PublicationsSection = () => {
       teaser: "/pacificvis26-thumb.png",
       confImage: "/pacificvis2026.png",
       links: [
-        { label: "PDF", url: "/Evaluating Visual Prompts with Eye-Tracking Data for MLLM–Based Human Activity Recognition.pdf"},
+        { label: "PDF", url: "/PacificVis_26-10.pdf"},
         { label: "Project Page", url: "https://eyetrackingvisualprompts.github.io" },
       ]
     },
