@@ -12,19 +12,21 @@ const PublicationsSection = () => {
       teaser: "/pacificvis26-thumb.png",
       confImage: "/pacificvis2026.png",
       links: [
-        { label: "PDF", url: "/PacificVis_26-10.pdf"},
+        { label: "PDF", url: "/PacificVis_26-11-2.pdf"},
         { label: "Project Page", url: "https://eyetrackingvisualprompts.github.io" },
       ]
     },
     {
       title: "\"Oops! ChatGPT is Temporarily Unavailable!'': A Diary Study on Knowledge Workers’ Experiences of LLM Withdrawal",
       authors: "Eunseo Oh*, Suyoun Lee*, <strong>Jae Young Choi*</strong>, Soobin Park, Youn-kyung Lim",
-      conference: "ACM CHI",
-      year: "2026 Poster",
+      conference: "ACM CHI EA",
+      year: "2026",
       status: "(to appear)",
       teaser: "/nollm.png",
       confImage: "/chi2026.png",
       links: [
+        { label: "DOI", url: "https://doi.org/10.1145/3772363.3798382" },
+        { label: "PDF", url: "/chiea26-212 (3).pdf"},
       ]
     },
     {
