@@ -18,7 +18,7 @@ const PublicationsSection = () => {
     },
     {
       title: "\"Oops! ChatGPT is Temporarily Unavailable!'': A Diary Study on Knowledge Workers’ Experiences of LLM Withdrawal",
-      authors: "Eunseo Oh*, Suyoun Lee*, <strong>Jae Young Choi*</strong>, Soobin Park, Youn-kyung Lim",
+      authors: "Eunseo Oh*, Suyoun Lee*, <strong>Jae Young Choi*</strong>, Soobin Park, and Youn-kyung Lim",
       conference: "ACM CHI EA",
       year: "2026",
       status: "(to appear)",
