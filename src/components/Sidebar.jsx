@@ -43,7 +43,7 @@ const Sidebar = () => {
           </a>
         </div>
         <div className="contact cv">
-          <a href="/CV.pdf" className="link cv" target="_blank" rel="noopener noreferrer">
+          <a href="/CV-5.pdf" className="link cv" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFileAlt} className="icon" />
           </a>
         </div>

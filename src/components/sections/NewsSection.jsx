@@ -6,6 +6,10 @@ const LatestNewsSection = () => {
   
   const newsItems = [
     {
+      date: "Mar 2026",
+      description: "Attending <strong>CHI 2026</strong>🇪🇸 as an SV! A co-authored paper and a poster will also be presented!"
+    },
+    {
       date: "Feb 2026",
       description: "One short paper accepted to <strong>PacificVis 2026</strong>! Planning to present my work about visual prompting for MLLM in Sydney 🦘🇦🇺"
     },
