@@ -27,6 +27,7 @@ const PublicationsSection = () => {
       links: [
         { label: "DOI", url: "https://doi.org/10.1145/3772363.3798382" },
         { label: "PDF", url: "/chiea26-212 (3).pdf"},
+        { label: "Poster", url: "/nollm-poster.pdf"},
       ]
     },
     {
