@@ -26,6 +26,7 @@ const PublicationsSection = () => {
       confImage: "/chi2026.png",
       links: [
         { label: "DOI", url: "https://doi.org/10.1145/3772363.3798382" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2603.26099"},
         { label: "PDF", url: "/chiea26-212 (3).pdf"},
         { label: "Poster", url: "/nollm-poster.pdf"},
       ]
@@ -39,6 +40,8 @@ const PublicationsSection = () => {
       teaser: "/clinic.png",
       confImage: "/chi2026.png",
       links: [
+        {label: "DOI", url: "https://doi.org/10.1145/3772318.3790970"},
+        {label: "PDF", url: "https://ic.kaist.ac.kr/publications/papers/jung2026toward.pdf"}
       ]
     },
     {
