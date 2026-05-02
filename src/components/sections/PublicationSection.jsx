@@ -22,7 +22,6 @@ const PublicationsSection = () => {
       authors: "Eunseo Oh*, Suyoun Lee*, <strong>Jae Young Choi*</strong>, Soobin Park, and Youn-kyung Lim",
       conference: "ACM CHI EA",
       year: "2026",
-      status: "(to appear)",
       teaser: "/nollm.png",
       confImage: "/chi2026.png",
       links: [
@@ -37,7 +36,6 @@ const PublicationsSection = () => {
       authors: "Yugyeong Jung, Thu Hoang Anh Vo, Hyun Seung Moon*, <strong>Jae Young Choi*</strong>, Hyangkyeong Oh, Ujin Lee, Eunjoo Kim, Tak Yeon Lee, and Uichin Lee",
       conference: "ACM CHI",
       year: "2026",
-      status: "(to appear)",
       teaser: "/clinic.png",
       confImage: "/chi2026.png",
       links: [
