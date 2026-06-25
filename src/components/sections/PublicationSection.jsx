@@ -12,6 +12,7 @@ const PublicationsSection = () => {
       teaser: "/pacificvis26-thumb.png",
       confImage: "/pacificvis2026.png",
       links: [
+        { label: "DOI", url: "https://doi.org/10.1109/PacificVis68791.2026.00023" },
         { label: "arXiv", url: "https://arxiv.org/abs/2604.09585"},
         { label: "PDF", url: "/PacificVis_26-11-2.pdf"},
         { label: "Project Page", url: "https://eyetrackingvisualprompts.github.io" },

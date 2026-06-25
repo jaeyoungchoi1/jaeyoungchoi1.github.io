@@ -6,6 +6,10 @@ const LatestNewsSection = () => {
   
   const newsItems = [
     {
+      date: "Jun 2026",
+      description: `Successfully passed my master's defense!`
+    },
+    {
       date: "Apr 2026",
       description: `Will join Texas A&M University 🇺🇸 as a CSE PhD student in Fall 2026! Advised by Prof. Jeeeun Kim (<a href="https://hcied.info" target="_blank" rel="noopener noreferrer">HCIED lab</a>).`
     },
