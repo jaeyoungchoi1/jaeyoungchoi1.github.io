@@ -8,7 +8,7 @@ const PublicationsSection = () => {
       authors: "<strong>Jae Young Choi</strong>, Seon Gyeom Kim, Hyungjun Yoon, Taeckyung Lee, Donggun Lee, Jaeryung Chung, Jihyung Kil, Ryan Rossi, Sung-Ju Lee, and Tak Yeon Lee",
       conference: "IEEE PacificVis",
       year: "2026",
-      status: "(to appear)",
+      // status: "(to appear)",
       teaser: "/pacificvis26-thumb.png",
       confImage: "/pacificvis2026.png",
       links: [

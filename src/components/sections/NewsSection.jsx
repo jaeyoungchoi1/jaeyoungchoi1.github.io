@@ -6,6 +6,10 @@ const LatestNewsSection = () => {
   
   const newsItems = [
     {
+      date: "Aug 2026",
+      description: `Moved to the U.S. and started my Ph.D. journey!`
+    },
+    {
       date: "Jun 2026",
       description: `Successfully passed my master's defense!`
     },

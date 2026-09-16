@@ -17,8 +17,8 @@ const Sidebar = () => {
       <div className="profile-container">
         <img src="/profile.jpeg" alt="Profile" className="profile-pic" />
         <h2 className="name">Jae Young Choi</h2>
-        <p className="title">Master's Candidate @ KAIST</p>
-        <p className="location">Daejeon, South Korea</p>
+        <p className="title">Ph.D. Student @ TAMU</p>
+        <p className="location">College Station, Texas</p>
       </div>
       
       <div className="contact-links">
@@ -28,7 +28,7 @@ const Sidebar = () => {
           </a>
         </div>
         <div className="contact email">
-          <a href="mailto:jaeyoungchoi@kaist.ac.kr" className="link email">
+          <a href="mailto:jaeyoungchoi@tamu.edu" className="link email">
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
           </a>
         </div>
